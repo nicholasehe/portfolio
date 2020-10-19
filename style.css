@@ -1,0 +1,465 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Home Page Styles */
+
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #fff;
+    animation: fadeOnLoad ease 1s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fadeOnLoad {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+nav {
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70vw;
+    height: 7vh;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 10px;
+}
+
+nav li a {
+    transition: 0.2s;
+}
+
+nav li a:hover {
+    color: #d4d4d4;
+    transition: 0.2s;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 180px;
+    margin-bottom: 200px;
+}
+
+#header-image {
+    margin-top: 0;
+    margin-right: 30px;
+}
+
+.header-text {
+    margin-left: 20px;
+}
+
+#header-title {
+    width: 650px;
+    height: auto;
+    font-size: 57px;
+    color: #333;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+#header-p {
+    width: 630px;
+    font-size: 18px;
+    color: #747474;
+    line-height: 32px;
+}
+
+#header-image {
+    margin-left: 20px;
+    width: 250px;
+    height: auto;
+}
+
+.row {
+    margin-left: auto;
+    margin-right: auto;
+    width: 70vw;
+    display: flex;
+    flex-direction: row;
+}
+
+.card {
+    box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.07), 0 5px 10px 0 rgba(0, 0, 0, 0.1);
+    width: 440px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 100px;
+    border-radius: 7px;
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translate(0, -20px);
+    opacity: 0.7;
+    box-shadow: 0 12px 25px 0 rgba(0, 0, 0, 0.07), 0 12px 20px 0 rgba(0, 0, 0, 0.1);
+}
+
+.card img {
+    width: 440px;
+    height: auto;
+    border-radius: 7px 7px 0 0;
+}
+
+.card h3 {
+    font-size: 25px;
+    color: #555;
+    margin-top: 30px;
+    margin-left: 40px;
+    margin-bottom: 30px;
+}
+
+.card p {
+    color: #a6a6a6;
+    padding-bottom: 60px;
+    margin-left: 40px;
+}
+
+#vr-card-title {
+    width: 80%;
+}
+
+#vr-card-p {
+    width: 80%;
+}
+
+#smithdesign-p {
+    padding-bottom: 30px;
+}
+
+#sd-source {
+    font-size: 10px;
+}
+
+main {
+    padding-bottom: 30px;
+}
+
+footer {
+    height: 120px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.social-text {
+    margin-bottom: 50px;
+}
+
+.social-text a:hover {
+    color: #d4d4d4;
+}
+
+.social-text a {
+    margin-right: 25px;
+    text-align: center;
+}
+
+#linkedin {
+    margin-left: 25px;
+}
+
+
+/* Hackable Page Styles */
+
+.hackable-parallax,
+.ccf-parallax,
+.sd-parallax,
+.vr-parallax {
+    height: 100vh;
+    background-image: url("../images/hackable-parallax.png");
+    background-attachment: fixed;
+}
+
+.ccf-parallax {
+    background-image: url("../images/ccf-parallax.png");
+}
+
+.sd-parallax {
+    background-image: url("../images/sd-parallax.png");
+}
+
+.vr-parallax {
+    background-image: url("../images/vr-parallax.png");
+}
+
+.hackable-header h1,
+.ccf-header h1,
+.sd-header h1,
+.vr-header h1 {
+    width: 500px;
+    font-size: 50px;
+    color: #333;
+    margin-left: 280px;
+    margin-top: 100px;
+    margin-bottom: 20px;
+}
+
+.ccf-header h1 {
+    width: 650px;
+}
+
+.hackable-header p,
+.ccf-header p,
+.sd-header p,
+.vr-header p {
+    width: 330px;
+    color: #aaaaaa;
+    margin-left: 280px;
+    margin-bottom: 120px;
+}
+
+.ccf-header p {
+    width: 400px;
+}
+
+.overview h2,
+.experiment-design h2,
+.results h2,
+.user-research h2,
+.user-research h2,
+.ui-design h2,
+.mockups h2,
+.key-takeaways h2,
+.sd-work h2,
+.experiment-design h2 {
+    margin-bottom: 20px;
+    margin-left: 280px;
+}
+
+.sd-work h2 {
+    margin-bottom: 50px;
+}
+
+.overview,
+.experiment-design,
+.results,
+.user-research,
+.ui-design,
+.mockups,
+.experiment-design {
+    margin-bottom: 130px;
+}
+
+.overview p,
+.experiment-design p,
+.results p,
+.user-research p,
+.ui-design p {
+    width: 980px;
+    margin-left: 280px;
+    margin-bottom: 40px;
+    color: #656565;
+    line-height: 23px;
+}
+
+#duration,
+#tools,
+#role {
+    margin-bottom: 15px;
+}
+
+cite a {
+    color: blue;
+}
+
+cite a:hover {
+    text-decoration: underline;
+}
+
+.mockups img {
+    width: 700px;
+    margin-left: 280px;
+}
+
+.key-takeaways ul {
+    margin-left: 280px;
+    color: #656565;
+}
+
+.key-takeaways {
+    margin-bottom: 100px;
+}
+
+.key-takeaways li {
+    margin-bottom: 10px;
+}
+
+
+/* Figure Styles*/
+
+figure {
+    width: 650px;
+    margin-bottom: 60px;
+    margin-left: 40px;
+}
+
+.user-research figure,
+.figure-group figure {
+    margin-bottom: 10px;
+}
+
+#image-2 {
+    margin-left: 50px;
+}
+
+.figure-group {
+    width: 300px;
+}
+
+.figure-group img {
+    width: 440px;
+}
+
+.figure-group {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 30px;
+}
+
+.user-research img,
+.experiment-design img {
+    margin-bottom: 20px;
+    margin-left: 243px;
+}
+
+figcaption {
+    color: #656565;
+    margin-left: 243px;
+}
+
+#participants figcaption {
+    margin-left: 60px;
+}
+
+.figure-group figcaption {
+    text-align: center;
+}
+
+.figcaption2 {
+    margin-left: 0;
+}
+
+#citation {
+    font-size: 10px;
+}
+
+cite a,
+p a {
+    color: blue;
+}
+
+cite a:hover,
+p a:hover {
+    text-decoration: underline;
+}
+
+.explore-section {
+    margin-bottom: 120px;
+}
+
+.mockups img {
+    display: inline-block;
+    margin-left: 285px;
+    margin-bottom: 20px;
+}
+
+#explore-prototype {
+    height: 530px;
+    width: auto;
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 13px;
+}
+
+#widgets-prototype {
+    height: 530px;
+    width: auto;
+    display: inline-block;
+    margin-left: 285px;
+    margin-bottom: 20px;
+}
+
+#widgets-wireframe {
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 13px;
+}
+
+#hackable-list-item,
+#vr-list-item {
+    width: 640px;
+}
+
+
+/* Smith Design Page Styles */
+
+.sd-images {
+    width: 65vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.sd-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.sd-row img {
+    width: 450px;
+    margin-left: 40px;
+    margin-bottom: 40px;
+}
+
+.sd-work {
+    margin-bottom: 100px;
+}
+
+
+/* CCF Styles */
+
+.ccf-images {
+    text-align: center;
+    background-color: #f3f5f7;
+}
+
+.ccf-images h2 {
+    margin-bottom: 120px;
+}
+
+.ccf-images img {
+    display: block;
+    height: 471px;
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 80px;
+}
