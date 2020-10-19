@@ -195,20 +195,20 @@ footer {
 .sd-parallax,
 .vr-parallax {
     height: 100vh;
-    background-image: url("../images/hackable-parallax.png");
+    background-image: url("images/hackable-parallax.png");
     background-attachment: fixed;
 }
 
 .ccf-parallax {
-    background-image: url("../images/ccf-parallax.png");
+    background-image: url("images/ccf-parallax.png");
 }
 
 .sd-parallax {
-    background-image: url("../images/sd-parallax.png");
+    background-image: url("images/sd-parallax.png");
 }
 
 .vr-parallax {
-    background-image: url("../images/vr-parallax.png");
+    background-image: url("images/vr-parallax.png");
 }
 
 .hackable-header h1,
