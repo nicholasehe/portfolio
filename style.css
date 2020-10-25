@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -7,7 +8,7 @@
 /* Home Page Styles */
 
 body {
-    font-family: 'Segoe UI', sans-serif;
+    font-family: 'Inter', sans-serif;
     background-color: #fff;
     animation: fadeOnLoad ease 1s;
     animation-iteration-count: 1;
@@ -27,28 +28,65 @@ nav {
     margin-top: 10px;
     margin-left: auto;
     margin-right: auto;
-    width: 70vw;
-    height: 7vh;
+    height: 8vh;
 }
 
 nav ul {
+    width: 90vw;
+    margin-left: 6.5vw;
+    margin-top: 30px;
     display: flex;
     flex-direction: row;
-    justify-content: flex-end;
+    justify-content: flex-start;
+}
+
+.logo img {
+    position: absolute;
+    margin-top: 5px;
+    width: 50px;
+    margin-left: 3.7%;
 }
 
 nav ul li {
     list-style: none;
+    color: #333;
     margin: 10px;
 }
 
+nav ul li h1 {
+    display: flex;
+    flex-direction: row;
+    font-size: 26px;
+    color: #333;
+    margin-left: 10px;
+    width: 115px;
+    margin-right: 0;
+}
+
+#nav-tag {
+    width: 100px;
+    margin-top: 7px;
+    margin-right: 65vw;
+    margin-left: 0;
+}
+
+.nav-margin-top {
+    margin-top: 17px;
+}
+
+.nav-margin-right {
+    margin-right: 33px;
+}
+
 nav li a {
-    transition: 0.2s;
+    font-size: 14px;
+    color: #333;
+    transition: 0.1s;
 }
 
 nav li a:hover {
     color: #d4d4d4;
-    transition: 0.2s;
+    transition: 0.1s;
 }
 
 a {
@@ -56,98 +94,106 @@ a {
     color: #333;
 }
 
-header {
-    display: flex;
-    flex-direction: row;
-    width: 1000px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 180px;
-    margin-bottom: 200px;
-}
-
-#header-image {
-    margin-top: 0;
-    margin-right: 30px;
-}
-
-.header-text {
-    margin-left: 20px;
-}
-
-#header-title {
-    width: 650px;
-    height: auto;
-    font-size: 57px;
+#logo {
+    font-size: 35px;
     color: #333;
-    margin-top: 10px;
-    margin-bottom: 20px;
+    font-weight: 700;
 }
 
-#header-p {
-    width: 600px;
-    font-size: 18px;
-    color: #747474;
-    line-height: 32px;
-    margin-bottom: 10px;
-}
-
-#header-image {
-    margin-left: 20px;
-    width: 250px;
-    height: auto;
+#logo-caption {
+    color: #a7a7a7;
 }
 
 .row {
-    margin-left: auto;
-    margin-right: auto;
-    width: 70vw;
     display: flex;
     flex-direction: row;
-}
-
-.card {
-    box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.07), 0 5px 10px 0 rgba(0, 0, 0, 0.1);
-    width: 440px;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 100px;
-    border-radius: 7px;
+}
+
+.row:nth-child(1) {
+    margin-left: 3%;
+}
+
+.link-fig {
+    margin: 1%;
+    width: 45vw;
+    height: auto;
+    margin-bottom: 1%;
+}
+
+.link-fig-margin {
+    margin-left: 4%;
+}
+
+.zoom {
+    width: 45vw;
+    height: auto;
+    overflow: hidden;
+    margin: 0;
+}
+
+.zoom img {
+    width: 100%;
+}
+
+.wrapper {
+    position: relative;
+}
+
+.wrapper img {
     transition: 0.3s;
 }
 
-.card:hover {
-    transform: translate(0, -20px);
-    opacity: 0.7;
-    box-shadow: 0 12px 25px 0 rgba(0, 0, 0, 0.07), 0 12px 20px 0 rgba(0, 0, 0, 0.1);
+.wrapper:hover img {
+    opacity: 0.2;
+    transition: 0.3s;
 }
 
-.card img {
-    width: 440px;
+.text-overlay {
+    width: 45.5vw;
     height: auto;
-    border-radius: 7px 7px 0 0;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0;
+    transition: 0.3s;
 }
 
-.card h3 {
-    font-size: 25px;
-    color: #555;
-    margin-top: 30px;
-    margin-left: 40px;
-    margin-bottom: 30px;
+.content {
+    margin-top: 20vh;
 }
 
-.card p {
-    color: #a6a6a6;
-    padding-bottom: 60px;
-    margin-left: 40px;
+.text-overlay h1 {
+    text-align: center;
+    font-size: 30px;
 }
 
-#vr-card-title {
-    width: 80%;
+.text-overlay:hover {
+    opacity: 1;
+    z-index: 2;
+    transition: 0.3s;
 }
 
-#vr-card-p {
-    width: 80%;
+#short-h1 {
+    font-size: 30px;
+}
+
+.ccf-short-h1 {
+    font-size: 30px;
+    width: 30vw;
+    margin-left: 8vw;
+}
+
+.text-link {
+    width: 200px;
+}
+
+.text-link:hover {
+    color: #d4d4d4;
+    transition: 0.1s;
 }
 
 #smithdesign-p {
@@ -159,6 +205,7 @@ header {
 }
 
 main {
+    margin-top: 20px;
     padding-bottom: 30px;
 }
 
@@ -167,7 +214,7 @@ footer {
     text-align: center;
     justify-content: center;
     align-items: center;
-    margin-top: 40px;
+    margin-top: 80px;
     margin-bottom: 40px;
 }
 
@@ -188,6 +235,10 @@ footer {
     margin-left: 25px;
 }
 
+.copyright {
+    font-size: 12px;
+}
+
 
 /* Hackable Page Styles */
 
@@ -195,9 +246,11 @@ footer {
 .ccf-parallax,
 .sd-parallax,
 .vr-parallax {
-    height: 100vh;
+    height: 60vh;
+    width: 100vw;
     background-image: url("images/hackable-parallax.png");
     background-attachment: fixed;
+    background-repeat: no-repeat;
 }
 
 .ccf-parallax {
@@ -212,6 +265,30 @@ footer {
     background-image: url("images/vr-parallax.png");
 }
 
+.arrow-down h1 {
+    position: relative;
+    font-weight: normal;
+    font-size: 35px;
+    color: #c0c0c0;
+    text-align: center;
+    margin-top: 10px;
+    animation-name: arrowAnimation;
+    animation-duration: 1.8s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes arrowAnimation {
+    0% {
+        top: 0px;
+    }
+    50% {
+        top: 25px;
+    }
+    100% {
+        top: 0px;
+    }
+}
+
 .hackable-header h1,
 .ccf-header h1,
 .sd-header h1,
@@ -220,7 +297,7 @@ footer {
     font-size: 50px;
     color: #333;
     margin-left: 280px;
-    margin-top: 100px;
+    margin-top: 60px;
     margin-bottom: 20px;
 }
 
@@ -251,7 +328,9 @@ footer {
 .mockups h2,
 .key-takeaways h2,
 .sd-work h2,
+.ccf-images h2,
 .experiment-design h2 {
+    color: #333;
     margin-bottom: 20px;
     margin-left: 280px;
 }
@@ -447,20 +526,57 @@ p a:hover {
 
 /* CCF Styles */
 
-.ccf-images {
-    text-align: center;
-    background-color: #f3f5f7;
+.ccf-images h2 {
+    margin-bottom: 60px;
 }
 
-.ccf-images h2 {
-    margin-bottom: 120px;
+#ccf-original {
+    margin-left: 280px;
 }
 
 .ccf-images img {
     display: block;
     height: 471px;
     width: auto;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 280px;
     margin-bottom: 80px;
+}
+
+#kt-short {
+    width: 600px;
+}
+
+
+/* Media Query */
+
+@media screen and (min-width: 2000px) {
+    .hackable-parallax,
+    .ccf-parallax,
+    .sd-parallax,
+    .vr-parallax {
+        height: 60vh;
+        width: auto;
+        background-image: url("images/hackable-responsive.png");
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+    }
+    .ccf-parallax {
+        background-image: url("images/ccf-responsive.png");
+    }
+    .sd-parallax {
+        background-image: url("images/sd-repsonsive.png");
+    }
+    .vr-parallax {
+        background-image: url("images/vr-responsive.png");
+    }
+    .arrow-down {
+        display: none;
+    }
+    .hackable-header,
+    .ccf-header,
+    .vr-header,
+    .sd-header,
+    .project-main {
+        margin-left: 20vw;
+    }
 }
