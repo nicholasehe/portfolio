@@ -64,10 +64,10 @@ nav ul li h1 {
 }
 
 #nav-tag {
-    width: 100px;
-    margin-top: 7px;
-    margin-right: 65vw;
-    margin-left: 0;
+    width: 20vw;
+    font-size: 1vw;
+    margin-top: 2.5vh;
+    margin-right: 58vw;
 }
 
 .nav-margin-top {
@@ -79,7 +79,7 @@ nav ul li h1 {
 }
 
 nav li a {
-    font-size: 14px;
+    font-size: 16px;
     color: #333;
     transition: 0.1s;
 }
@@ -495,6 +495,7 @@ p a:hover {
 }
 
 #hackable-list-item,
+#ccf-list-item,
 #vr-list-item {
     width: 640px;
 }
@@ -526,12 +527,28 @@ p a:hover {
 
 /* CCF Styles */
 
-.ccf-images h2 {
-    margin-bottom: 60px;
+.ccf-figure {
+    width: 65vw;
+    margin-top: 10vh;
+}
+
+.ui-image {
+    width: 65vw;
+    margin-left: 18vw;
+}
+
+#journey-map {
+    width: 66vw;
+    margin-left: 16vw;
 }
 
 #ccf-original {
-    margin-left: 280px;
+    width: 65vw;
+    margin-left: 16vw;
+}
+
+.ccf-images h2 {
+    margin-bottom: 60px;
 }
 
 .ccf-images img {
@@ -540,6 +557,16 @@ p a:hover {
     width: auto;
     margin-left: 280px;
     margin-bottom: 80px;
+}
+
+#ccf-sketch {
+    width: 40vw;
+    margin-left: 18vw;
+}
+
+#ccf-final {
+    width: 65vw;
+    height: auto;
 }
 
 #kt-short {
