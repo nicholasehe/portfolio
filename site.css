@@ -58,7 +58,7 @@ nav ul li {
     width: 20vw;
     font-size: 1vw;
     margin-top: 2.5vh;
-    margin-right: 49vw;
+    margin-right: 46.7vw;
 }
 
 nav ul li h1 {
@@ -67,7 +67,7 @@ nav ul li h1 {
     font-size: 1.7vw;
     color: #333;
     margin-left: 10px;
-    width: 115px;
+    width: 10vw;
     margin-right: 0;
 }
 
@@ -398,4 +398,60 @@ figcaption {
     width: 65vw;
     margin-left: 17.8vw;
     margin-top: 5vh;
+}
+
+
+/* --------Media Queries-------- */
+
+@media screen and (min-width: 2000px) {
+    /* --------Navbar-------- */
+    nav {
+        margin-top: 3vh;
+        margin-left: auto;
+        margin-right: auto;
+        height: 8vh;
+    }
+    nav ul {
+        width: 90vw;
+        margin-left: 6.5vw;
+        margin-top: 30px;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+    }
+    .logo img {
+        position: absolute;
+        margin-top: 5px;
+        width: 3.5vw;
+        margin-left: 3.7%;
+    }
+    nav ul li {
+        list-style: none;
+        font-size: 1vw;
+        color: #333;
+        margin: 10px;
+    }
+    #nav-tag li {
+        width: 20vw;
+        font-size: 1vw;
+        margin-top: 1.4vh;
+        margin-right: 51vw;
+    }
+    nav ul li h1 {
+        display: flex;
+        flex-direction: row;
+        font-size: 1.7vw;
+        color: #333;
+        margin-left: 1vw;
+        width: 10vw;
+    }
+    /* -------- Research -------- */
+    .header p {
+        width: 20vw;
+        color: #aaaaaa;
+        font-size: 2.1vh;
+        font-weight: 600;
+        margin-left: 17.8vw;
+        margin-bottom: 120px;
+    }
 }
