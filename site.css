@@ -400,6 +400,11 @@ figcaption {
     margin-top: 5vh;
 }
 
+.high-fid img {
+    width: 70vw;
+    margin-left: 14.5vw;
+}
+
 
 /* --------Media Queries-------- */
 
