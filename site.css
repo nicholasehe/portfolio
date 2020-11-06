@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -8,7 +8,7 @@
 /* --------Home Page Styles-------- */
 
 body {
-    font-family: 'Inter', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     background-color: #fff;
     animation: fadeOnLoad ease 1s;
     animation-iteration-count: 1;
@@ -62,7 +62,7 @@ nav ul li a {
     width: 20vw;
     font-size: 1vw;
     margin-top: 2.5vh;
-    margin-right: 54vw;
+    margin-right: 53.4vw;
 }
 
 nav ul li h1 {
@@ -445,17 +445,11 @@ figcaption {
     }
     nav ul {
         width: 90vw;
-        margin-left: 6.5vw;
+        margin-left: 2.8vw;
         margin-top: 30px;
         display: flex;
         flex-direction: row;
         justify-content: flex-start;
-    }
-    .logo img {
-        position: absolute;
-        margin-top: 5px;
-        width: 3.5vw;
-        margin-left: 3.7%;
     }
     nav ul li {
         list-style: none;
@@ -466,8 +460,8 @@ figcaption {
     #nav-tag li {
         width: 20vw;
         font-size: 1vw;
-        margin-top: 1.4vh;
-        margin-right: 54vw;
+        margin-top: 1.58vh;
+        margin-right: 55vw;
     }
     nav ul li h1 {
         display: flex;
@@ -476,6 +470,20 @@ figcaption {
         color: #333;
         margin-left: 1vw;
         width: 7vw;
+    }
+    footer {
+        margin-left: 0.3vw;
+    }
+    /* -------- Project Main -------- */
+    .overview p,
+    .empathize p,
+    .define p,
+    .ideate p,
+    .prototype p,
+    .experiment-design p,
+    .results p,
+    .final-product p {
+        line-height: 2vw;
     }
     /* -------- Research -------- */
     .header p {
