@@ -379,6 +379,8 @@ figcaption {
 .sd-work img {
     width: 30vw;
     margin-right: 2vw;
+    margin-bottom: 1vw;
+    margin-top: 1vw;
 }
 
 .key-takeaways {
