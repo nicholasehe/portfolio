@@ -5,7 +5,7 @@
 }
 
 
-/* --------Home Page Styles-------- */
+/* Home Page Styles */
 
 body {
     font-family: 'Montserrat', sans-serif;
@@ -70,18 +70,10 @@ nav ul li h1 {
     flex-direction: row;
     font-size: 1.7vw;
     color: #333;
-    margin-left: 10px;
+    margin-left: 0.6vw;
     width: 7vw;
     margin-right: 0;
 }
-
-
-/* #nav-tag {
-    width: 20vw;
-    font-size: 1vw;
-    margin-top: 2.5vh;
-    margin-right: 58vw;
-} */
 
 .nav-margin-top {
     margin-top: 17px;
@@ -105,16 +97,6 @@ nav li a:hover {
 a {
     text-decoration: none;
     color: #333;
-}
-
-#logo {
-    font-size: 35px;
-    color: #333;
-    font-weight: 700;
-}
-
-#logo-caption {
-    color: #a7a7a7;
 }
 
 .row {
@@ -430,10 +412,10 @@ figcaption {
 }
 
 
-/* --------Media Queries-------- */
+/* Media Queries */
 
 @media screen and (min-width: 2000px) {
-    /* --------Navbar-------- */
+    /* Navbar */
     nav {
         margin-top: 3vh;
         margin-left: auto;
@@ -474,7 +456,7 @@ figcaption {
     .content {
         margin-top: 16vh;
     }
-    /* -------- Project Main -------- */
+    /* Project Main */
     .overview p,
     .empathize p,
     .define p,
@@ -485,7 +467,7 @@ figcaption {
     .final-product p {
         line-height: 2vw;
     }
-    /* -------- Research -------- */
+    /* Research */
     .header p {
         width: 20vw;
         color: #aaaaaa;
