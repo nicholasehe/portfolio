@@ -176,12 +176,12 @@ a {
 }
 
 .content {
-    margin-top: 20vh;
+    margin-top: 22.2vh;
 }
 
 .text-overlay h1 {
     text-align: center;
-    font-size: 30px;
+    font-size: 2vw;
 }
 
 .text-overlay:hover {
@@ -191,11 +191,11 @@ a {
 }
 
 #short-h1 {
-    font-size: 30px;
+    font-size: 2vw;
 }
 
 .ccf-short-h1 {
-    font-size: 30px;
+    font-size: 2vw;
     width: 30vw;
     margin-left: 8vw;
 }
@@ -369,6 +369,7 @@ figcaption {
 }
 
 figcaption {
+    margin-top: 2vh;
     color: #656565;
 }
 
@@ -385,7 +386,7 @@ figcaption {
 
 .key-takeaways {
     font-size: 2.1vh;
-    /* width: 60vw; */
+    width: 76vw;
     margin-bottom: 20vh;
 }
 
@@ -398,10 +399,6 @@ figcaption {
 .key-takeaways li {
     margin-bottom: 1vw;
     margin-left: 1vw;
-}
-
-#vr-list-item {
-    width: 65vw;
 }
 
 #duration,
@@ -474,6 +471,9 @@ figcaption {
     footer {
         margin-left: 0.3vw;
     }
+    .content {
+        margin-top: 16vh;
+    }
     /* -------- Project Main -------- */
     .overview p,
     .empathize p,
@@ -493,5 +493,8 @@ figcaption {
         font-weight: 600;
         margin-left: 17.8vw;
         margin-bottom: 120px;
+    }
+    #sd-header-p {
+        width: 28vw;
     }
 }
