@@ -137,12 +137,12 @@ a {
 }
 
 .wrapper img {
-    transition: 0.3s;
+    transition: 0.1s;
 }
 
 .wrapper:hover img {
-    opacity: 0.2;
-    transition: 0.3s;
+    opacity: 0;
+    transition: 0.2s;
 }
 
 .text-overlay {
@@ -154,7 +154,7 @@ a {
     left: 0;
     right: 0;
     opacity: 0;
-    transition: 0.3s;
+    transition: 0.2s;
 }
 
 .content {
@@ -163,23 +163,17 @@ a {
 
 .text-overlay h1 {
     text-align: center;
-    font-size: 2vw;
+    font-size: 1.5vw;
 }
 
 .text-overlay:hover {
     opacity: 1;
     z-index: 2;
-    transition: 0.3s;
+    transition: 0.2s;
 }
 
 #short-h1 {
-    font-size: 2vw;
-}
-
-.ccf-short-h1 {
-    font-size: 2vw;
-    width: 30vw;
-    margin-left: 8vw;
+    font-size: 1.5vw;
 }
 
 .text-link {
@@ -188,7 +182,7 @@ a {
 
 .text-link:hover {
     color: #d4d4d4;
-    transition: 0.1s;
+    transition: 0.2s;
 }
 
 #smithdesign-p {
