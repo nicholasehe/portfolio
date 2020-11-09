@@ -5,6 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="./fontawesome/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="site.css">
     <title>UX Case Study Cheesecake Factory Online Menu</title>
 </head>
@@ -31,7 +32,7 @@
     </div>
 
     <main class="project-main">
-        <div class="overview">
+        <div class="overview" data-aos="fade-in" data-aos-offset="20" data-aos-delay="100">
             <h2>Overview</h2>
             <p>
                 This was a personal 1-week project where the challenge was to redesign the layout of a website to better suit a particular audience's needs. The users I focused on were new customers not familiar with the Cheesecake Factory's online menu. Because the
@@ -39,11 +40,11 @@
                 framework to guide my design decisions.
             </p>
             <div class="design-thinking">
-                <img src="./images/design-thinking.png" alt="">
+                <img src="./images/design-thinking.png" alt="" data-aos="fade-in" data-aos-offset="20" data-aos-delay="300">
             </div>
         </div>
 
-        <div class="empathize">
+        <div class="empathize" data-aos="fade-in" data-aos-offset="20" data-aos-delay="300">
             <h2>Empathize - Understanding User Pain Points</h2>
             <p>
                 The first issue with the current information architecture is that there are too many choices displayed in the online menu. According to an <a href="https://www.nngroup.com/articles/flat-vs-deep-hierarchy/">article by the Nielson Norman Group</a>on
@@ -54,28 +55,28 @@
                 The second issue is that the current menu layout contains numerous items nested under many different layers. This results in the user needing to click many times in order to reach important information on every item (such as images and food descriptions).
                 In order to better understand user pain points within their experience interacting with the menu, I created a user journey map:
             </p>
-            <div class="user-journey">
+            <div class="user-journey" data-aos="fade-in" data-aos-offset="200" data-aos-delay="500">
                 <img id="journey-map" src="./images/ccf-journey-map.png" alt="">
             </div>
         </div>
 
-        <div class="define">
+        <div class="define" data-aos="fade-in" data-aos-offset="20" data-aos-delay="300">
             <h2>Define - Determining User Needs and Goals </h2>
             <p>After understanding where user pain points were during the interaction process, I defined several key user needs and goals by creating a persona:</p>
-            <div class="personas">
+            <div class="personas" data-aos="fade-in" data-aos-offset="20" data-aos-delay="500">
                 <img src="./images/ccf-persona.png" alt="">
             </div>
         </div>
 
-        <div class="ideate">
+        <div class="ideate" data-aos="fade-in" data-aos-offset="20" data-aos-delay="300">
             <h2>Ideate - Generating Potential Solutions</h2>
             <p>To address user needs, I brainstormed potential features to add so that the interface is optimized for both quick ordering and exploring menu items:</p>
-            <div class="brainstorm">
+            <div class="brainstorm" data-aos="fade-in" data-aos-offset="20" data-aos-delay="500">
                 <img src="./images/ccf-brainstorm.jpg" alt="brainstorming">
             </div>
         </div>
 
-        <div class="prototype">
+        <div class="prototype" data-aos="fade-in" data-aos-offset="20" data-aos-delay="300">
             <h2>Prototype - Improving user experience with a new interface</h2>
             <p>
                 To implement a solution for an improved user experience, I sketched out the design and created a annotated high-fidelity prototype with Figma. I used a grid layout instead of the list-based information architecture on the current website. This layout
@@ -87,27 +88,26 @@
                 containing a dropdown list of menu items for easy navigation. This sidebar allows users to look at each section of the menu without having to go back to a webpage dedicated for each section.
             </p>
             <div class="low-fid">
-                <img src="./images/ccf-sketch.png" alt="">
+                <img src="./images/ccf-sketch.png" alt="" data-aos="fade-in" data-aos-offset="20" data-aos-delay="500">
             </div>
             <div class="high-fid">
-                <img src="./images/ccf-labels1.svg" alt="">
+                <img src="./images/ccf-labels1.svg" alt="" data-aos="fade-in" data-aos-offset="10" data-aos-delay="500">
             </div>
         </div>
 
-        <div class="final-product">
+        <div class="final-product" data-aos="fade-in" data-aos-offset="20" data-aos-delay="300">
             <h2>Final Product</h2>
-            <div class="high-fid">
+            <div class="high-fid" data-aos="fade-in" data-aos-offset="20" data-aos-delay="500">
                 <img src="./images/ccf-final.svg" alt="">
             </div>
         </div>
 
-        <div class="key-takeaways">
+        <div class="key-takeaways" data-aos="fade-in" data-aos-offset="20" data-aos-delay="300">
             <h2>Key takeaways</h2>
             <ul>
                 <li id="kt-short">I learned the importance of how a specific target audience can drive design choices and the types of design features that are implemented</li>
                 <li>I sharpened my wireframing skills in Figma</li>
-                <li>I strengthened my frontend development skills with HTML and CSS</li>
-                <li id="ccf-list-item">Most importantly, I was able to gain experience in empathizing with users and understanding their pain points during a particular interaction</li>
+                <li id="ccf-list-item"> Most importantly, I was able to gain experience in empathizing with users and understanding their pain points during a particular interaction</li>
             </ul>
         </div>
     </main>
@@ -124,6 +124,14 @@
             &#169; 2020 Designed by Nick He. All rights reserved.
         </div>
     </footer>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            offset: 20,
+            duration: 1000
+        });
+    </script>
 </body>
 
 </html>

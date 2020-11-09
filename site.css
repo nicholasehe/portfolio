@@ -265,6 +265,8 @@ footer {
 .ideate,
 .prototype,
 .final-product,
+.context,
+.research-qs,
 .experiment-design,
 .results,
 .sd-work {
@@ -277,6 +279,8 @@ footer {
 .ideate h2,
 .prototype h2,
 .final-product h2,
+.context h2,
+.research-qs h2,
 .experiment-design h2,
 .results h2,
 .key-takeaways h2 {
@@ -297,6 +301,8 @@ footer {
 .define p,
 .ideate p,
 .prototype p,
+.context p,
+.research-qs p,
 .experiment-design p,
 .results p,
 .final-product p {
@@ -360,13 +366,15 @@ figcaption {
     margin-bottom: 20vh;
 }
 
-.key-takeaways ul {
+.key-takeaways ul,
+.research-qs ul {
     line-height: 1.7vw;
     margin-left: 17.8vw;
     color: #656565;
 }
 
-.key-takeaways li {
+.key-takeaways li,
+.research-qs li {
     margin-bottom: 1vw;
     margin-left: 1vw;
 }
@@ -374,7 +382,7 @@ figcaption {
 .design-thinking img {
     width: 50vw;
     margin-left: 23vw;
-    margin-top: 10vh;
+    margin-top: 2vh;
 }
 
 .pain-points img,
@@ -389,8 +397,28 @@ figcaption {
 }
 
 .high-fid img {
-    width: 70vw;
-    margin-left: 14.5vw;
+    width: 63vw;
+    margin-left: 18.5vw;
+}
+
+#final-filter {
+    width: 61.5vw;
+    margin-left: 19.5vw;
+}
+
+#final-eatery {
+    width: 62.7vw;
+    margin-left: 20.1vw;
+}
+
+#final-rating {
+    width: 57vw;
+    margin-left: 16vw;
+}
+
+#final-map {
+    width: 47vw;
+    margin-left: 15vw;
 }
 
 

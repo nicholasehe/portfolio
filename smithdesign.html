@@ -5,6 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="./fontawesome/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="site.css">
     <title>Smith Design Internship</title>
 </head>
@@ -31,7 +32,7 @@
     </div>
 
     <main class="project-main">
-        <div class="overview">
+        <div class="overview" data-aos="fade-in" data-aos-offset="20" data-aos-delay="100">
             <h2>Overview</h2>
             <p>
                 In the summer of 2018, I interned as a creative designer at the graphic design and branding agency Smith Design in Morristown, NJ. During my experience, I mainly worked on creating Instagram posts for one of the clients, Viva La Mamma (a to-go pasta brand).
@@ -40,32 +41,32 @@
             </p>
         </div>
 
-        <div class="sd-work">
+        <div class="sd-work" data-aos="fade-in" data-aos-offset="20" data-aos-delay="300">
             <h2>Instagram Post Designs</h2>
             <div class="sd-images">
                 <div class="sd-row">
-                    <img src="images/vlm-pesto.jpg" alt="">
-                    <img src="images/vlm-meals.jpg" alt="">
+                    <img src="images/vlm-pesto.jpg" alt="" data-aos="fade-in" data-aos-offset="10" data-aos-delay="500">
+                    <img src="images/vlm-meals.jpg" alt="" data-aos="fade-in" data-aos-offset="50" data-aos-delay="700">
                 </div>
 
                 <div class="sd-row">
-                    <img src="images/vlm-tomato.jpg" alt="">
-                    <img src="images/vlm-karaoke.jpg" alt="">
+                    <img src="images/vlm-tomato.jpg" alt="" data-aos="fade-in" data-aos-offset="10" data-aos-delay="900">
+                    <img src="images/vlm-karaoke.jpg" alt="" data-aos="fade-in" data-aos-offset="10" data-aos-delay="1100">
                 </div>
 
                 <div class="sd-row">
-                    <img src="images/vlm-picnic.jpg" alt="">
-                    <img src="images/vlm-carbonara.jpg" alt="">
+                    <img src="images/vlm-picnic.jpg" alt="" data-aos="fade-in" data-aos-offset="10" data-aos-delay="1300">
+                    <img src="images/vlm-carbonara.jpg" alt="" data-aos="fade-in" data-aos-offset="10" data-aos-delay="1500">
                 </div>
 
                 <div class="sd-row">
-                    <img src="images/vlm-fresh.jpg" alt="">
-                    <img src="images/vlm-school.jpg" alt="">
+                    <img src="images/vlm-fresh.jpg" alt="" data-aos="fade-in" data-aos-offset="10" data-aos-delay="1700">
+                    <img src="images/vlm-school.jpg" alt="" data-aos="fade-in" data-aos-offset="10" data-aos-delay="1900">
                 </div>
             </div>
         </div>
 
-        <div class="key-takeaways">
+        <div class="key-takeaways" data-aos="fade-in" data-aos-offset="50" data-aos-delay="500">
             <h2>Key takeaways</h2>
             <ul>
                 <li>I learned how target audiences and brand identity play a major role in commercial design</li>
@@ -87,6 +88,14 @@
             &#169; 2020 Designed by Nick He. All rights reserved.
         </div>
     </footer>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            offset: 400,
+            duration: 1000
+        });
+    </script>
 </body>
 
 </html>
