@@ -185,12 +185,8 @@ a {
     transition: 0.2s;
 }
 
-#smithdesign-p {
-    padding-bottom: 30px;
-}
-
-#sd-source {
-    font-size: 10px;
+#vr-text-overlay {
+    margin-top: 27vh;
 }
 
 main {
