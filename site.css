@@ -62,7 +62,7 @@ nav ul li a {
     width: 20vw;
     font-size: 1vw;
     margin-top: 2.5vh;
-    margin-right: 53.4vw;
+    margin-right: 49.5vw;
 }
 
 nav ul li h1 {
@@ -77,10 +77,6 @@ nav ul li h1 {
 
 .nav-margin-top {
     margin-top: 17px;
-}
-
-.nav-margin-right {
-    margin-right: 33px;
 }
 
 nav li a {
@@ -300,7 +296,7 @@ footer {
     font-size: 2.1vh;
     margin-left: 17.8vw;
     margin-bottom: 1.8vw;
-    color: #656565;
+    color: #000;
     line-height: 1.5vw;
 }
 
@@ -440,7 +436,7 @@ figcaption {
         width: 20vw;
         font-size: 1vw;
         margin-top: 1.58vh;
-        margin-right: 55vw;
+        margin-right: 51vw;
     }
     nav ul li h1 {
         display: flex;
