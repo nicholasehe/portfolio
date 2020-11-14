@@ -16,6 +16,14 @@ body {
     animation-fill-mode: forwards;
 }
 
+h1,
+h2,
+h3,
+ul,
+li {
+    color: #444;
+}
+
 p {
     font-weight: 500;
 }
@@ -55,7 +63,7 @@ nav ul {
 nav ul li {
     list-style: none;
     font-size: 1vw;
-    color: #000;
+    color: #444;
     margin: 10px;
 }
 
@@ -74,7 +82,7 @@ nav ul li h1 {
     display: flex;
     flex-direction: row;
     font-size: 1.7vw;
-    color: #000;
+    color: #444;
     margin-left: 0.6vw;
     width: 7vw;
     margin-right: 0;
@@ -86,7 +94,7 @@ nav ul li h1 {
 
 nav li a {
     font-size: 16px;
-    color: #000;
+    color: #444;
     transition: 0.1s;
 }
 
@@ -97,7 +105,7 @@ nav li a:hover {
 
 a {
     text-decoration: none;
-    color: #000;
+    color: #444;
 }
 
 .home-header {
@@ -114,6 +122,7 @@ a {
     width: 40vw;
     font-family: 'Montserrat', sans-serif;
     font-size: 1.5vw;
+    color: #444;
     text-align: center;
     margin-left: 29vw;
     margin-top: 3vh;
@@ -295,7 +304,7 @@ footer {
 .results h2,
 .key-takeaways h2 {
     font-size: 1.8vw;
-    color: #000;
+    /* color: #000; */
     margin-bottom: 2vh;
     margin-left: 30vw;
 }
@@ -326,7 +335,7 @@ footer {
 
 .sd-work h2 {
     font-size: 1.8vw;
-    color: #000;
+    /* color: #000; */
     margin-left: 12.2vw;
     margin-bottom: 7vh;
 }
@@ -389,7 +398,7 @@ figcaption {
 figcaption {
     font-size: 1.9vh;
     margin-top: 2vh;
-    color: #000;
+    /* color: #000; */
 }
 
 .sd-work {
@@ -414,7 +423,7 @@ figcaption {
     font-weight: 500;
     line-height: 1.7vw;
     margin-left: 30vw;
-    color: #000;
+    /* color: #000; */
 }
 
 .key-takeaways li,
