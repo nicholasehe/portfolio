@@ -5,6 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="./fontawesome/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="site.css">
     <title>Nick He</title>
 </head>
@@ -20,12 +21,17 @@
             <div id="nav-tag">
                 <li> UI/UX Product Designer</li>
             </div>
-            <li class="nav-margin-top nav-margin-right"><a href="index.html">Work</a></li>
+            <li class="nav-margin-top"><a href="index.html">Work</a></li>
             <li class="nav-margin-top"><a href="./Resume.pdf" target="_blank">Resume</a></li>
             <li class="nav-margin-top"><a href="mailto:nh289@cornell.edu">Contact</a></li>
         </ul>
     </nav>
     <!-- /Navbar -->
+
+    <div class="home-header">
+        <h1>👋🏻 Hi, I'm Nick.</h1>
+        <p>I'm a designer passionate about creating products that positively impact people's lives.</p>
+    </div>
 
     <main>
         <div class="row">
@@ -60,12 +66,12 @@
             </div>
         </div>
 
-        <div class="row">
+        <div class="row row-fade" data-aos="fade-up" data-aos-offset="20" data-aos-delay="0">
             <div class="link-fig link-fig-margin">
                 <a href="research.html">
                     <div class="wrapper">
                         <div class="zoom">
-                            <img src="images/vr-mockup-alt.png" alt="Hackable app mockup">
+                            <img src="images/vr-mockup.png" alt="Hackable app mockup">
                         </div>
                         <div class="text-overlay">
                             <div class="content">
@@ -104,6 +110,14 @@
             &#169; 2020 Designed by Nick He. All rights reserved.
         </div>
     </footer>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            offset: 20,
+            duration: 700
+        });
+    </script>
 </body>
 
 </html>

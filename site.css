@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -8,11 +9,15 @@
 /* Home Page Styles */
 
 body {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;
     background-color: #fff;
     animation: fadeOnLoad ease 1s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
+}
+
+p {
+    font-weight: 500;
 }
 
 @keyframes fadeOnLoad {
@@ -93,6 +98,25 @@ nav li a:hover {
 a {
     text-decoration: none;
     color: #000;
+}
+
+.home-header {
+    margin-top: 5vh;
+    margin-bottom: 10vh;
+}
+
+.home-header h1 {
+    text-align: center;
+    font-size: 3vw;
+}
+
+.home-header p {
+    width: 40vw;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5vw;
+    text-align: center;
+    margin-left: 29vw;
+    margin-top: 3vh;
 }
 
 .row {
@@ -204,7 +228,7 @@ footer {
 }
 
 .social-text {
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 }
 
 .social-text a:hover {
@@ -233,7 +257,7 @@ footer {
     margin-right: auto;
     justify-content: center;
     margin-top: 10vh;
-    margin-bottom: 10vh;
+    margin-bottom: 15vh;
 }
 
 .new-header img {
@@ -273,13 +297,38 @@ footer {
     font-size: 1.8vw;
     color: #000;
     margin-bottom: 2vh;
-    margin-left: 17.8vw;
+    margin-left: 30vw;
+}
+
+.challenge {
+    margin-top: 10vh;
+}
+
+.challenge h3 {
+    font-size: 1vw;
+    margin-bottom: 2vh;
+    margin-left: 30vw;
+}
+
+.process {
+    width: 57vw;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15vh;
+    margin-bottom: 5vh;
+}
+
+.process h3 {
+    font-size: 1vw;
+    margin-bottom: 5vh;
+    text-align: center;
 }
 
 .sd-work h2 {
     font-size: 1.8vw;
     color: #000;
-    margin-bottom: 2vh;
+    margin-left: 12.2vw;
+    margin-bottom: 7vh;
 }
 
 .overview p,
@@ -292,12 +341,18 @@ footer {
 .experiment-design p,
 .results p,
 .final-product p {
-    width: 65vw;
-    font-size: 2.1vh;
-    margin-left: 17.8vw;
+    width: 40vw;
+    font-size: 1.9vh;
+    margin-left: 30vw;
     margin-bottom: 1.8vw;
     color: #000;
-    line-height: 1.5vw;
+    line-height: 1.7vw;
+}
+
+.challenge p {
+    font-size: 2.2vh;
+    font-weight: 600;
+    margin-bottom: 5vh;
 }
 
 .project-main a {
@@ -320,6 +375,7 @@ figure img {
     display: flex;
     flex-direction: row;
     margin-left: 17.8vw;
+    margin-top: 10vh;
 }
 
 figcaption {
@@ -331,8 +387,9 @@ figcaption {
 }
 
 figcaption {
+    font-size: 1.9vh;
     margin-top: 2vh;
-    color: #656565;
+    color: #000;
 }
 
 .sd-work {
@@ -347,28 +404,28 @@ figcaption {
 }
 
 .key-takeaways {
-    font-size: 2.1vh;
-    width: 76vw;
+    font-size: 1.8vh;
+    width: 75vw;
     margin-bottom: 20vh;
 }
 
 .key-takeaways ul,
 .research-qs ul {
+    font-weight: 500;
     line-height: 1.7vw;
-    margin-left: 17.8vw;
-    color: #656565;
+    margin-left: 30vw;
+    color: #000;
 }
 
 .key-takeaways li,
 .research-qs li {
+    font-size: 1.9vh;
     margin-bottom: 1vw;
     margin-left: 1vw;
 }
 
-.design-thinking img {
-    width: 50vw;
-    margin-left: 23vw;
-    margin-top: 2vh;
+#margin-bottom-narrow {
+    margin-bottom: 1vh;
 }
 
 .pain-points img,
@@ -380,6 +437,15 @@ figcaption {
     width: 65vw;
     margin-left: 17.8vw;
     margin-top: 5vh;
+}
+
+.process img {
+    width: 57vw;
+}
+
+#ccf-ideation {
+    width: 38vw;
+    margin-left: 31.4vw;
 }
 
 .high-fid img {
@@ -446,6 +512,9 @@ figcaption {
         margin-left: 1vw;
         width: 7vw;
     }
+    .row-fade {
+        margin-top: 2vh;
+    }
     footer {
         margin-left: 0.3vw;
     }
@@ -461,7 +530,7 @@ figcaption {
     .experiment-design p,
     .results p,
     .final-product p {
-        line-height: 2vw;
+        line-height: 1.7vw;
     }
     /* Research */
     .header p {
