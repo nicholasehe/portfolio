@@ -85,7 +85,11 @@ nav ul li h1 {
     color: #444;
     margin-left: 0.6vw;
     width: 7vw;
-    margin-right: 0;
+}
+
+#wave {
+    font-size: 3vw;
+    margin-right: 1.7vw;
 }
 
 .nav-margin-top {
@@ -460,6 +464,14 @@ figcaption {
 .high-fid img {
     width: 63vw;
     margin-left: 18.5vw;
+}
+
+#ccf-final {
+    margin-top: 9vh;
+}
+
+#ccf-final img {
+    margin-bottom: 10vh;
 }
 
 #final-filter {
