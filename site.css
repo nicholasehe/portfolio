@@ -133,6 +133,10 @@ a {
     margin-top: 3vh;
 }
 
+.home-header span img {
+    width: 3vw;
+}
+
 .row {
     display: flex;
     flex-direction: row;
