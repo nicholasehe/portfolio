@@ -38,20 +38,24 @@ p {
 
 nav {
     padding-top: 3vh;
+    width: 100vw;
     padding-bottom: 3vh;
     margin-left: auto;
     margin-right: auto;
     height: 10vh;
+    margin-bottom: 0;
 }
 
 #automotion-nav,
-#journey-nav {
+#journey-nav,
+#sd-nav {
     background-color: #f3f5f7;
 }
 
-#sd-nav {
+
+/* #sd-nav {
     background-color: #FF5252;
-}
+} */
 
 nav ul {
     width: 75vw;
@@ -341,11 +345,10 @@ footer {
 /* --------Project Header Styles-------- */
 
 .new-header {
-    width: 98.9vw;
+    width: 100vw;
     margin-left: auto;
     margin-right: auto;
     justify-content: center;
-    margin-bottom: 3vh;
 }
 
 .new-header img {
@@ -358,7 +361,8 @@ footer {
 /* --------Project Main Styles-------- */
 
 .overview-hero {
-    margin-bottom: 10vh;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 .overview-hero img,
@@ -385,15 +389,7 @@ footer {
 .consumer-research img,
 .colors img,
 .sd-final img {
-    width: 98.9vw;
-}
-
-.challenge {
-    margin-top: 10vh;
-}
-
-.prototype-header {
-    margin-bottom: 10vh;
+    width: 100vw;
 }
 
 .prototype {
@@ -402,6 +398,11 @@ footer {
     margin-left: 25vw;
     margin-top: 3vh;
     margin-bottom: 5vh;
+}
+
+.prototype-header {
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 .favorites1 {
@@ -474,13 +475,14 @@ footer {
 
 /* Media Queries */
 
-@media screen and (min-width: 2000px) {
+@media screen and (min-width: 1800px) {
     /* Navbar */
     nav {
-        margin-top: 3vh;
+        /* margin-top: 3vh; */
         margin-left: auto;
         margin-right: auto;
         height: 8vh;
+        margin-bottom: 0;
     }
     nav ul {
         width: 90vw;
@@ -520,6 +522,12 @@ footer {
     }
     .content {
         margin-top: 11vh;
+    }
+    /* Prototype */
+    .prototype p,
+    .caption p {
+        font-size: 2vh;
+        line-height: 3vh;
     }
 }
 
