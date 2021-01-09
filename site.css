@@ -444,6 +444,22 @@ footer {
     width: 15vw;
 }
 
+#shop-brand-p {
+    width: 16vw;
+}
+
+#filter-eat-p {
+    width: 15vw;
+}
+
+#g-maps {
+    margin-left: 22vw;
+}
+
+#g-maps-p {
+    width: 22vw;
+}
+
 .car-info h3 {
     width: 15vw;
 }
