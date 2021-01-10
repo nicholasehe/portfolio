@@ -306,7 +306,7 @@ footer {
     align-items: center;
     margin-top: 80px;
     margin-left: 1.5vw;
-    margin-bottom: 40px;
+    margin-bottom: 10px;
 }
 
 .social-text {
@@ -486,7 +486,7 @@ footer {
 .other-work {
     width: 70vw;
     margin-left: 19vw;
-    margin-top: 30vh;
+    margin-top: 10vh;
     margin-bottom: 30vh;
 }
 
