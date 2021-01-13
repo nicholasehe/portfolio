@@ -407,6 +407,7 @@ footer {
 
 .phone-watch {
     margin-left: 20vw;
+    height: auto;
 }
 
 .prototype video,
@@ -485,10 +486,6 @@ footer {
     height: 80vh;
 }
 
-.prototype .journey-phone {
-    height: 85vh;
-}
-
 .prototype .watch {
     height: 45vh;
 }
@@ -499,6 +496,10 @@ footer {
 
 .init-proto video {
     height: 76vh;
+}
+
+.prototype .journey-phone {
+    height: 85vh;
 }
 
 
@@ -654,9 +655,9 @@ footer {
         font-size: 2vh;
         line-height: 3vh;
     }
-    .prototype .journey-phone {
+    /* .prototype .journey-phone {
         height: 100vh;
-    }
+    } */
     /* Carousel Thumbnail Size */
     .thumbnail-content {
         height: 30%;
