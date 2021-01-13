@@ -409,8 +409,9 @@ footer {
     margin-left: 16vw;
 }
 
-.prototype video {
-    height: 100vh;
+.prototype video,
+.add-to-cart img {
+    height: 85vh;
 }
 
 .prototype .watch {
@@ -636,6 +637,10 @@ footer {
     .caption p {
         font-size: 2vh;
         line-height: 3vh;
+    }
+    /* Carousel Thumbnail Size */
+    .thumbnail-content {
+        height: 30%;
     }
 }
 
