@@ -387,7 +387,7 @@ footer {
 .prototype {
     display: flex;
     flex-direction: row;
-    margin-left: 25vw;
+    margin-left: 27vw;
     margin-top: 3vh;
     margin-bottom: 5vh;
 }
@@ -406,13 +406,14 @@ footer {
 }
 
 .phone-watch {
-    margin-left: 16vw;
+    margin-left: 20vw;
+    width: 50vw;
 }
 
 .prototype video,
 .init-proto video,
 .add-to-cart img {
-    height: 80vh;
+    height: 77vh;
 }
 
 .prototype .watch {
@@ -480,6 +481,22 @@ footer {
 
 #trails-text {
     width: 20vw;
+}
+
+#standard-size {
+    height: 80vh;
+}
+
+.journey-phone {
+    height: 80vh;
+}
+
+.prototype .watch {
+    height: 45vh;
+}
+
+.prototype .boost-phone {
+    height: 75vh;
 }
 
 
