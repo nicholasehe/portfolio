@@ -499,7 +499,7 @@ footer {
 }
 
 .init-proto video {
-    height: 75vh;
+    height: 76vh;
 }
 
 
@@ -654,6 +654,9 @@ footer {
     .caption p {
         font-size: 2vh;
         line-height: 3vh;
+    }
+    .prototype .journey-phone {
+        height: 100vh;
     }
     /* Carousel Thumbnail Size */
     .thumbnail-content {
