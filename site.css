@@ -410,8 +410,9 @@ footer {
 }
 
 .prototype video,
+.init-proto video,
 .add-to-cart img {
-    height: 85vh;
+    height: 80vh;
 }
 
 .prototype .watch {
@@ -475,10 +476,6 @@ footer {
 
 .init-proto p {
     width: 25vw;
-}
-
-.init-proto video {
-    height: 100vh;
 }
 
 #trails-text {
