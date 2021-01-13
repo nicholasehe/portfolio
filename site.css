@@ -411,7 +411,6 @@ footer {
 }
 
 .prototype video,
-.init-proto video,
 .add-to-cart img {
     height: 77vh;
 }
@@ -487,8 +486,8 @@ footer {
     height: 80vh;
 }
 
-.journey-phone {
-    height: 80vh;
+.prototype .journey-phone {
+    height: 85vh;
 }
 
 .prototype .watch {
@@ -496,6 +495,10 @@ footer {
 }
 
 .prototype .boost-phone {
+    height: 75vh;
+}
+
+.init-proto video {
     height: 75vh;
 }
 
