@@ -502,6 +502,14 @@ footer {
     height: 75vh;
 }
 
+#saved-listings-margin {
+    margin-top: 18vh;
+}
+
+.suggested-margin {
+    margin-top: 21vh;
+}
+
 
 /* Other Work Section */
 
