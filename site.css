@@ -38,7 +38,7 @@ p {
 
 nav {
     padding-top: 3vh;
-    width: 100vw;
+    width: 98.7vw;
     padding-bottom: 4vh;
     margin-left: auto;
     margin-right: auto;
@@ -124,16 +124,25 @@ a {
 }
 
 .home-header {
+    display: flex;
+    flex-direction: row;
     margin-top: 15vh;
-    margin-bottom: 10vh;
+    margin-bottom: 3vh;
+}
+
+.home-header img {
+    margin-left: 10vw;
+    width: 18vw;
+    height: 18vw;
 }
 
 .home-header h1 {
-    text-align: center;
-    font-size: 5vh;
+    margin-left: 13vw;
+    font-size: 2.5vw;
     font-weight: 700;
     color: #383838;
     letter-spacing: -0.5px;
+    margin-bottom: 25vh;
 }
 
 .home-header p {
@@ -200,7 +209,6 @@ a {
 
 .zoom img {
     width: 100%;
-    border-radius: 10px;
 }
 
 .wrapper {
@@ -208,87 +216,17 @@ a {
 }
 
 .wrapper img {
-    transition: 0.1s;
+    transition: 0.3s;
 }
 
-.boost-overlay {
-    background: #3FD0A4;
+.wrapper .zoom img:hover {
+    transform: scale(1.1);
+    transition: 0.3s;
 }
 
-.ccf-overlay {
-    background: #ddd;
-}
-
-.ar-overlay {
-    background: #FFCA0E;
-}
-
-.sd-overlay {
-    background: #f4f4f4;
-}
-
-.boost-overlay h1,
-.boost-overlay p {
-    color: #fff;
-}
-
-.ccf-overlay h1,
-.ccf-overlay p,
-.sd-overlay h1,
-.sd-overlay p,
-.ar-overlay h1,
-.ar-overlay p {
-    color: #333;
-}
-
-.boost-overlay,
-.ccf-overlay,
-.ar-overlay,
-.sd-overlay {
-    width: 94.4%;
-    height: 98.7%;
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    opacity: 0;
-    border-radius: 10px;
-    transition: 0.2s;
-}
-
-.content {
-    margin-top: 17vh;
-}
-
-.boost-overlay h1,
-.boost-overlay p,
-.ccf-overlay h1,
-.ccf-overlay p,
-.ar-overlay h1,
-.ar-overlay p,
-.sd-overlay h1,
-.sd-overlay p {
-    text-align: center;
-    font-size: 3.75vh;
-    font-weight: 700;
-    margin-bottom: 12px;
-}
-
-.boost-overlay p,
-.ccf-overlay p,
-.ar-overlay p,
-.sd-overlay p {
-    font-size: 2.91vh;
-    font-weight: 500;
-}
-
-.boost-overlay:hover,
-.ccf-overlay:hover,
-.ar-overlay:hover,
-.sd-overlay:hover {
-    opacity: 0.95;
-    transition: 0.2s;
+.thumbnail-caption {
+    margin-top: 2vh;
+    font-size: 2.5vh;
 }
 
 main {
@@ -337,7 +275,7 @@ footer {
 /* --------Project Header Styles-------- */
 
 .new-header {
-    width: 100vw;
+    width: 98.7vw;
     margin-left: auto;
     margin-right: auto;
     justify-content: center;
@@ -394,7 +332,7 @@ footer {
 .consumer-research img,
 .colors img,
 .sd-final img {
-    width: 100vw;
+    width: 98.7vw;
 }
 
 .prototype {
@@ -544,58 +482,25 @@ footer {
     flex-direction: row;
 }
 
-.carousel img {
+.small-zoom {
     width: 20vw;
-    border-radius: 10px;
-    margin-right: 1vw;
+    height: auto;
+    overflow: hidden;
+}
+
+.small-zoom img {
+    width: 100%;
+    transition: 0.3s;
 }
 
 .thumbnail-wrapper {
     position: relative;
+    margin-right: 1vw;
 }
 
-.thumbnail-content {
-    text-align: center;
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: 59.8%;
-    width: 95%;
-    opacity: 0;
-    transition: .2s ease;
-    padding-top: 9vh;
-    border-radius: 10px;
-}
-
-.automotion-thumbnail {
-    background-color: #ddd;
-}
-
-.journey-thumbnail {
-    background-color: #FFCA0E;
-}
-
-.boost-thumbnail {
-    background-color: #3FD0A4;
-}
-
-.sd-thumbnail {
-    background-color: #f4f4f4;
-}
-
-.thumbnail-content:hover {
-    opacity: 1;
-}
-
-.thumbnail-content h2 {
-    margin-bottom: 1vh;
-}
-
-.white-h2,
-.white-p {
-    color: #fff;
+.thumbnail-wrapper img:hover {
+    transform: scale(1.1);
+    transition: 0.3s;
 }
 
 
@@ -626,6 +531,7 @@ footer {
     /* Navbar */
     nav {
         /* margin-top: 3vh; */
+        width: 100vw;
         margin-left: auto;
         margin-right: auto;
         height: 8vh;
@@ -664,11 +570,34 @@ footer {
     footer {
         margin-left: 0.3vw;
     }
-    .content {
-        margin-top: 16vh;
+    .overview-hero img,
+    .problem img,
+    .challenge img,
+    .solution img,
+    .process-header img,
+    .ca img,
+    .users img,
+    .storyboard img,
+    .matrix img,
+    .info-archit img,
+    .wireframe img,
+    .style-guide img,
+    .prototype-header img,
+    .friction img,
+    .brand-id img,
+    .mood-board img,
+    .user-testing img,
+    .watch-safety img,
+    .takeaways-header img,
+    .key-takeaways img,
+    .client-values img,
+    .consumer-research img,
+    .colors img,
+    .sd-final img {
+        width: 100vw;
     }
-    .content {
-        margin-top: 11vh;
+    .new-header {
+        width: 100vw;
     }
     /* Prototype */
     .prototype p,
