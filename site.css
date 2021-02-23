@@ -137,12 +137,13 @@ a {
 }
 
 .home-header h1 {
-    margin-left: 13vw;
+    margin-left: 10vw;
     font-size: 2.5vw;
     font-weight: 700;
     color: #383838;
+    margin-top: 9vh;
     letter-spacing: -0.5px;
-    margin-bottom: 25vh;
+    margin-bottom: 16vh;
 }
 
 .home-header p {
