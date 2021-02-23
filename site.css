@@ -144,30 +144,8 @@ a {
     color: #383838;
     margin-top: 9vh;
     letter-spacing: -0.5px;
-    margin-bottom: 21vh;
+    margin-bottom: 24vh;
 }
-
-
-/* .home-header p {
-    width: 35vw;
-    font-size: 3.47vh;
-    font-weight: 400;
-    color: #919191;
-    text-align: center;
-    margin-left: 32.3vw;
-    margin-top: 3vh;
-    margin-bottom: 25vh;
-    line-height: 5vh;
-} */
-
-
-/* .header-highlight {
-    color: #6180fe;
-}
-
-.home-header span img {
-    width: 5vh;
-} */
 
 .row {
     display: flex;
